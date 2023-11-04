@@ -1,6 +1,6 @@
 # RedFlow
 
-Code multi level clustering execution flow system! Linked like a flow chart! To make multi-layered execution that group elements that need to run through the same resources and process. To optimize and save resources consumption.
+Code multi-level clustering execution flow system! Linked like a flow chart! To make multi-layered execution that groups elements that need to run through the same resources and process. To optimize and save resources consumption.
 
 > This is far from being any doc. Just a full dump. Of something i did 4 years ago (2019). Once i get time. Or get to re-use RedFlow. I'll make a real doc. And may update the module. I will add some examples soon enough.
 
@@ -8,14 +8,14 @@ Code multi level clustering execution flow system! Linked like a flow chart! To 
 
 The RedFlow is a cool tool or framework that allow easy setup and put in place of cluster based computation! Where you have source elements and then the elements that share the same properties! Will be clustered together and share the same process or resources!
 
-Setup Redflow = Classify (signature) => Execute as if it was just one element. With good context api. Setup things in a natural way.
+Setup RedFlow = Classify (signature) => Execute as if it was just one element. With good context api. Setup things in a natural way.
 
-With RedFlow this is easy to be setup! And it go on multi levels! With big automation! The flow is simple to be created! Simple as if there was no clustering and no such a hassle! The idea was to make such a setup all simple fluid and right away! With as minimal as caring and setup! And as intuitive as it can be!
+With RedFlow this is easy to be setup! And it go on multi levels! With big automation! The flow is simple to create! Simple as if there was no clustering and no such a hassle! The idea was to make such a setup all simple fluid and right away! With as minimal as caring and setup! And as intuitive as it can be!
 No hassle!
 
-And when adding/removing new elements everything is handled automatically 
+And when adding/removing new elements everything is handled automatically.
 
-The big picture image! Is a graph of RedFlow will be created!
+The big picture image! A graph of RedFlow will be created!
 Many RedFlow can be created! And they will be linked! And chained! There will be parent to child relation!
 At every RedFlow clustering will happens!
 And when that happen Execution methods will run!
@@ -665,6 +665,12 @@ export class KidoSuperLightMultiApiAgent {
 ```
 
 > Those examples are just for demonstration. From a very old version of a certain bot. Where later on a full redesign and re-write was done. Only focus with the RedFlow part.
+
+- Some of the RedFlow strengths are
+  - Setup execution in a sequential, flatten manner.
+  - Separate clustering from execution.
+  - Have a full dynamic construct by nature
+  - Events and hooking ...
 
 ### All the RedFlow framework elements
 
