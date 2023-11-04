@@ -1,0 +1,35 @@
+{
+  "name": "redflow",
+  "version": "0.0.1",
+  "description": "Code multi level clustering execution flow system! Linked like a flow chart! To make multi-layered execution that group elements that need to run through the same resources and process. To optimize and save resources consumption.",
+  "main": "dest/index.js",
+  "files": [
+    "dest",
+    "README.md"
+  ],
+  "devDependencies": {
+    "typescript": "4.9"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMagicianDev/RedFlow.git"
+  },
+  "author": "Mohamed Lamine Allal, TheMagicianDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMagicianDev/RedFlow/issues"
+  },
+  "homepage": "https://github.com/TheMagicianDev/RedFlow#readme",
+  "keywords": [
+    "RedFlow",
+    "Clustering",
+    "Classification",
+    "Execution",
+    "Resources",
+    "Optimization",
+    "Context"
+  ]
+}
